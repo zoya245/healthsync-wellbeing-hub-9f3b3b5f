@@ -22,33 +22,33 @@ The application focuses on clarity, usability, and consistent visual feedback to
 
 🏗 Development Approach (Vibe Coding Workflow)
 This project was developed using a Vibe Coding methodology:
-Problem definition and structured planning
-AI-assisted initial application generation
-Manual refinement, debugging, and enhancement
-Git-based version control
-Deployment for public access
-This approach enabled rapid prototyping while maintaining clean architecture and scalability potential.
+1. Problem definition and structured planning 
+2. AI-assisted initial application generation
+3. Manual refinement, debugging, and enhancement
+4. Git-based version control
+5. Deployment for public access
+6. This approach enabled rapid prototyping while maintaining clean architecture and scalability potential.
 
-🛠 Technology Stack
-React JS
-TypeScript
-Component-Based Architecture
-Responsive UI Design
-Git & GitHub (Version Control)
-Vercel (Deployment Platform)
+🛠 Technology Stack:
+* React JS
+* TypeScript
+* Component-Based Architecture
+* Responsive UI Design
+* Git & GitHub (Version Control)
+* Vercel (Deployment Platform)
 
-🌐 Live Deployment
-🔗 Deployed Application: https://healthsync-dashboard-xi.vercel.app/
-🔗 Github repository: https://github.com/zoya245/healthsync-dashboard.git
+🌐 Live Deployment:
+- 🔗 Deployed Application: https://healthsync-dashboard-xi.vercel.app/
+- 🔗 Github repository: https://github.com/zoya245/healthsync-dashboard.git
 
 🔮 Future Enhancements
-Supabase backend integration for secure authentication,
-Cloud-based persistent health data storage,
-AI-powered health recommendations,
-Personalized analytics insights,
-Mobile application version.
+- Supabase backend integration for secure authentication
+- cloud-based persistent health data storage
+- AI-powered health recommendations
+- Personalized analytics insights
+- Mobile application version.
 
 
 ⚠ Known Limitations:
-Data is currently stored locally,
-No authentication module (planned for future release)
+* Data is currently stored locally
+* No authentication module (planned for future release)
