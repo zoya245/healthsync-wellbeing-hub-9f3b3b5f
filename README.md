@@ -49,6 +49,6 @@ Personalized analytics insights,
 Mobile application version.
 
 
-⚠ Known Limitations
-Data is currently stored locally
+⚠ Known Limitations:
+Data is currently stored locally,
 No authentication module (planned for future release)
