@@ -42,11 +42,13 @@ Vercel (Deployment Platform)
 🔗 Github repository: https://github.com/zoya245/healthsync-dashboard.git
 
 🔮 Future Enhancements
-Supabase backend integration for secure authentication
-Cloud-based persistent health data storage
-AI-powered health recommendations
-Personalized analytics insights
-Mobile application version
+Supabase backend integration for secure authentication,
+Cloud-based persistent health data storage,
+AI-powered health recommendations,
+Personalized analytics insights,
+Mobile application version.
+
+
 ⚠ Known Limitations
 Data is currently stored locally
 No authentication module (planned for future release)
