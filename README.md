@@ -1,25 +1,52 @@
 💚 HealthSync – Smart Health Tracking Dashboard
-HealthSync is a modern, responsive web application designed to help users monitor and improve their daily health habits. It provides an intuitive dashboard to track essential wellness metrics and visualize progress over time.
-🚀 Features
-💧 Daily Water Intake Tracker
-👣 Steps Counter
-😴 Sleep Hours Monitor
-⚖️ BMI Calculator (Height & Weight Based)
-😊 Mood Tracker (Emoji-based selection)
-📊 Weekly Health Analytics (Interactive Charts)
+
+🚀 Overview
+HealthSync is a modern, responsive health tracking web application designed to help individuals monitor and improve their daily wellness habits.
+In today’s fast-paced lifestyle, people often neglect basic health metrics such as hydration, sleep, physical activity, and emotional well-being. HealthSync provides a centralized dashboard that simplifies daily tracking and promotes healthier habit formation through visual feedback and structured monitoring.
+
+🎯 Problem Statement
+Many individuals lack a simple and accessible system to consistently track essential health indicators. Existing solutions are often overloaded with features, expensive, or medically complex.
+HealthSync addresses this gap by offering a lightweight, user-friendly, and visually clear dashboard that enables users to monitor key health metrics in one place.
+
+💡 Our Solution
+HealthSync provides:
+💧 Daily Water Intake Tracking with Progress Indicators
+👣 Steps Tracking
+😴 Sleep Hours Monitoring
+⚖️ BMI Calculator (Auto-calculated from height & weight)
+😊 Mood Tracking (Emoji-based selection)
+📊 Weekly Health Analytics Dashboard
 🌙 Dark Mode Toggle
-📱 Fully Responsive Design
-✏️ Add / Edit / Delete Daily Records
-🛠 Tech Stack
+📱 Fully Responsive UI
+The application focuses on clarity, usability, and consistent visual feedback to encourage healthier routines.
+
+🏗 Development Approach (Vibe Coding Workflow)
+This project was developed using a Vibe Coding methodology:
+Problem definition and structured planning
+AI-assisted initial application generation
+Manual refinement, debugging, and enhancement
+Git-based version control
+Deployment for public access
+This approach enabled rapid prototyping while maintaining clean architecture and scalability potential.
+
+🛠 Technology Stack
 React JS
 TypeScript
-Modern Component-Based Architecture
+Component-Based Architecture
 Responsive UI Design
-🎯 Purpose
-The goal of HealthSync is to encourage consistent healthy habits through visual progress tracking and simple data insights. The application provides users with a clear overview of their physical and emotional well-being in one centralized dashboard.
-📈 Future Improvements
-AI-based health suggestions
-Cloud data storage
-Authentication system
-Mobile app version
-Advanced analytics
+Git & GitHub (Version Control)
+Vercel (Deployment Platform)
+
+🌐 Live Deployment
+🔗 Deployed Application: https://healthsync-dashboard-xi.vercel.app/
+🔗 Github repository: https://github.com/zoya245/healthsync-dashboard.git
+
+🔮 Future Enhancements
+Supabase backend integration for secure authentication
+Cloud-based persistent health data storage
+AI-powered health recommendations
+Personalized analytics insights
+Mobile application version
+⚠ Known Limitations
+Data is currently stored locally
+No authentication module (planned for future release)
