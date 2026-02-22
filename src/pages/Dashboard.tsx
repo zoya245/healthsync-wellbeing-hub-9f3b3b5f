@@ -17,12 +17,12 @@ import Footer from '@/components/Footer';
 
 const Dashboard = () => {
   const navigate = useNavigate();
-  const { user, logout } = useAuth();
+  const { profile, logout } = useAuth();
   const { dark, toggle } = useTheme();
   const { todayRecord, weeklyData, goals, bmi, updateToday, updateGoal, addGoal, deleteGoal } = useHealthData();
 
-  const handleLogout = () => {
-    logout();
+  const handleLogout = async () => {
+    await logout();
     navigate('/');
   };
 
@@ -39,7 +39,7 @@ const Dashboard = () => {
             <Button variant="ghost" size="icon" onClick={toggle} className="rounded-xl">
               {dark ? <Sun className="w-4 h-4" /> : <MoonIcon className="w-4 h-4" />}
             </Button>
-            <span className="text-sm text-muted-foreground hidden sm:inline">Hi, {user?.name || 'User'}</span>
+            <span className="text-sm text-muted-foreground hidden sm:inline">Hi, {profile?.name || 'User'}</span>
             <Button variant="outline" size="sm" onClick={handleLogout}>
               <LogOut className="w-4 h-4 mr-1" /> Logout
             </Button>
